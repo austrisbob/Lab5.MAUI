@@ -12,6 +12,7 @@ namespace Lab5.MAUI
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -19,6 +20,7 @@ namespace Lab5.MAUI
                 });
             builder.Services.AddScoped<IDepartmentApiClient, DepartmentApiClient>();
             builder.Services.AddScoped<IDataRepository, ApiDataRepository>();
+            builder.Services.AddSingleton<MainPage>();
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
