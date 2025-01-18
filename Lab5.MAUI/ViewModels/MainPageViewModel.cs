@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using GalaSoft.MvvmLight.Command;
+//using GalaSoft.MvvmLight.Command;
 using Lab5.MAUIData.Interfaces;
 using Lab5.MAUIData.Models;
 using Lab5.MAUI.ViewModels;
+using CommunityToolkit.Mvvm.Input;
 
 
 namespace MauiApp2.ViewModels
