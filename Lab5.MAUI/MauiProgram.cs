@@ -1,4 +1,5 @@
-﻿using Lab5.MAUIData.Interfaces;
+﻿using CommunityToolkit.Maui;
+using Lab5.MAUIData.Interfaces;
 using Lab5.MAUIData.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Compatibility.Hosting;
